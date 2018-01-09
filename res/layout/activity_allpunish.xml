@@ -1,0 +1,98 @@
+<LinearLayout android:id="@+id/linearallpunish" 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent" 
+        android:background="#D6D6D6"
+        
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+    	 <Button android:id="@+id/punish_title" 
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="1dp"
+        android:scaleType="fitXY"
+        android:text="@string/punish"
+        android:textSize="40sp"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"
+        android:background="@drawable/title"  
+    	/>
+    	<Button android:id="@+id/punish_return" 
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="1dp"
+        android:scaleType="fitXY"
+        android:text="@string/btnloginback"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:background="@drawable/return_selector" 
+        android:onClick="OnClickpunishback"
+         
+    	/>
+    	<LinearLayout 
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="vertical"
+    	    android:gravity="center"
+    	    android:layout_centerInParent="true"
+    	    android:layout_margin="30dp">
+    	    <Button
+            android:id="@+id/btn_simple"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvspunish"
+            android:textSize="40sp"
+        	android:textStyle="bold"
+        	android:textColor="#000000"
+            android:background="@drawable/close"
+            android:onClick="Onclicksimple"
+            android:layout_margin="30dp"
+           />
+        <Button
+            android:id="@+id/btn_force"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_simple"
+            android:text="@string/tvfpunish"
+            android:textSize="40sp"
+       		android:textStyle="bold"
+       		android:textColor="#000000"
+            android:background="@drawable/close"
+            android:onClick="Onclickforce"
+            android:layout_margin="30dp"
+           />
+         <Button
+            android:id="@+id/btn_unlocale"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+      		android:layout_below="@+id/btn_force"
+            android:text="@string/tvunlocale"
+            android:textSize="40sp"
+        	android:textStyle="bold"
+        	android:textColor="#000000"
+            android:background="@drawable/close"
+            android:onClick="Onclickunlocale"
+            android:layout_margin="30dp"
+           />
+    	</LinearLayout>
+    	 
+    	<ImageView
+    	 android:id="@+id/punish_status" 
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"  
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/footer"  
+    />
+ </RelativeLayout>
+     
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+ <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#D6D6D6">
+
+     <Button
+         android:id="@+id/btnvehicle"
+         android:layout_width="120dp"
+         android:layout_height="122dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginLeft="15dp"
+         android:background="@drawable/vehicle_selector" 
+         android:onClick="OnClickSimpleVehicle"
+         />
+
+     <Button
+         android:id="@+id/btnnvehicle"
+         android:layout_width="120dp"
+         android:layout_height="122dp"
+       	 android:layout_alignTop="@+id/btnvehicle"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="15dp"
+         android:background="@drawable/nvehicle_selector"  
+         android:onClick="OnClickSimpleNvehicle"     
+         />
+</RelativeLayout>
+
+</LinearLayout>

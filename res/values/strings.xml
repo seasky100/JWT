@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">移动执法</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="policenum">警员编号：60617</string>
+    <string name="policename">警员姓名：李刚</string>
+    <string name="policeteam">警区：一大队</string>
+    <string name="login_user_hint">用户编号</string>
+    <string name="login_passwd_hint">密码</string>
+    <string name="btnlogin">登 录</string>
+    <string name="btnloginback">返 回</string>
+    <string name="punish">执  法</string>
+    <string name="log">日志</string>
+    <string name="tvspunish">简易处罚</string>
+    <string name="tvfpunish">强制措施</string>
+    <string name="tvunlocale">非现场处理</string>
+    <string name="baseinfo">基本信息</string>
+    <string name="carinfo">车辆信息</string>
+    <string name="lawinfo">违法信息</string>
+    <string name="peopletype">人员种类</string>
+    <string-array name="peopletypearray">
+        <item>3:公安驾驶证</item>
+        <item>4:武警驾驶证</item>
+        <item>5:军队驾驶证</item>
+        <item>6:农机驾驶证</item>
+        <item>2:无</item>
+    </string-array>
+    <string name="tvlicence">发证机关</string>
+    <string-array name="provincearray">
+        <item>京</item>
+        <item>津</item>
+        <item>冀</item>
+        <item>晋</item>
+        <item>蒙</item>
+        <item>辽</item>
+        <item>吉</item>
+        <item>黑</item>
+        <item>沪</item>
+        <item>苏</item>
+        <item>浙</item>
+        <item>皖</item>
+        <item>闽</item>
+        <item>赣</item>
+        <item>鲁</item>
+        <item>豫</item>
+        <item>鄂</item>
+        <item>湘</item>
+        <item>粤</item>
+        <item>桂</item>
+        <item>琼</item>
+        <item>渝</item>
+        <item>川</item>
+        <item>贵</item>
+        <item>云</item>
+        <item>藏</item>
+        <item>陕</item>
+        <item>甘</item>
+        <item>青</item>
+        <item>宁</item>
+        <item>新</item>
+</string-array>
+    <string name="name">被处罚人</string>
+    <string name="phone">联系方式</string>
+    <string name="archivesnum">档案编号</string>
+    <string name="identitycard">身份证号</string>
+    <string name="drivetype">准驾车型</string>
+    <string name="sbtnroad">道路代码</string>
+    <string name="sbtnroadname">道路名称</string>
+    <string name="sbtncartype">车辆分类</string>
+    <string-array name="cartypearray">
+        <item>3:公安牌证机动车</item>
+        <item>4:武警牌证机动车</item>
+        <item>5:部队牌证机动车</item>
+        <item>6:农机牌证机动车</item>
+        <item>2:无牌无证机动车</item>
+    </string-array>
+    <string name="sbtncarnumtype">号牌种类</string>
+    <string-array name="carnumtypearray">
+    <item>01:大型汽车</item>
+	<item>02:小型汽车</item>
+	<item>03:使馆汽车</item>
+	<item>04:领馆汽车</item>
+	<item>05:境外汽车</item>
+	<item>06:外籍汽车</item>
+	<item>07:普通摩托车</item>
+	<item>08:轻便摩托车</item>
+	<item>09:使馆摩托车</item>
+	<item>10:领馆摩托车</item>
+	<item>11:境外摩托车</item>
+	<item>12:外籍摩托车</item>
+	<item>13:低速车</item>
+	<item>14:拖拉机</item>
+	<item>15:挂车</item>
+	<item>16:教练汽车</item>
+	<item>17:教练摩托车</item>
+	<item>18:试验汽车</item>
+	<item>19:试验摩托车</item>
+	<item>20:临时入境汽车</item>
+	<item>21:临时入境摩托车</item>
+	<item>22:临时行驶车</item>
+	<item>23:警用汽车</item>
+	<item>24:警用摩托</item>
+	<item>25:原农机号牌</item>
+	<item>26:香港入出境车</item>
+	<item>27:澳门入出境车</item>
+	<item>31:武警号牌</item>
+	<item>32:军队号牌</item>
+	<item>41:无号牌</item>
+	<item>42:假号牌</item>
+	<item>43:挪用号牌</item>
+	<item>99:其他号牌</item>
+   </string-array>
+  <string name="sbtncarnum">号牌号码</string>
+  <string name="stvtraffictype">交通方式</string>
+    <string-array name="traffictypearray">
+	<item>D11:无轨电车:01</item>
+	<item>D12:有轨电车:01</item>
+	<item>H11:大型普通货车:06</item>
+	<item>H11:大型普通货车:01</item>
+	<item>H21:中型普通货车:01</item>
+	<item>H31:小型普通货车:06</item>
+	<item>H31:小型普通货车:02</item>
+	<item>H51:低速普通货车:13</item>
+	<item>H52:低速厢式货车:13</item>
+	<item>H53:低速罐式货车:13</item>
+	<item>H54:低速自卸货车:13</item>
+	<item>J11:轮式装载机械:13</item>
+	<item>J12:轮式挖掘机械:13</item>
+	<item>J13:轮式平地机械:13</item>
+	<item>K11:大型普通客车:01</item>
+	<item>K11:大型普通客车:06</item>
+	<item>K21:中型普通客车:01</item>
+	<item>K21:中型普通客车:02</item>
+	<item>K31:小型普通客车:06</item>
+	<item>K31:小型普通客车:02</item>
+	<item>K31:小型普通客车:03</item>
+	<item>M11:普通正三轮摩托车:07</item>
+	<item>M11:普通正三轮摩托车:33</item>
+	<item>M12:轻便正三轮摩托车:07</item>
+	<item>M12:轻便正三轮摩托车:33</item>
+	<item>M13:正三轮载客摩托车:33</item>
+	<item>M13:正三轮载客摩托车:07</item>
+	<item>M14:正三轮载货摩托车:33</item>
+	<item>M14:正三轮载货摩托车:07</item>
+	<item>M15:侧三轮摩托车:34</item>
+	<item>M15:侧三轮摩托车:07</item>
+	<item>M15:侧三轮摩托车:09</item>
+	<item>M21:普通二轮摩托车:08</item>
+	<item>M21:普通二轮摩托车:07</item>
+	<item>M21:普通二轮摩托车:09</item>
+	<item>M22:轻便二轮摩托车:07</item>
+	<item>M22:轻便二轮摩托车:09</item>
+	<item>M22:轻便二轮摩托车:08</item>
+	<item>N11:三轮汽车:13</item>
+	<item>T11:大型轮式拖拉机:14</item>
+	<item>T21:小型轮式拖拉机:14</item>
+	<item>T22:手扶拖拉机:14</item>
+	<item>F04:残疾人专用车:99</item>
+	<item>F06:助力自行车:99</item>
+	<item>F07:电动自行车:99</item>
+</string-array>
+    <string name="stvcarstatus">车辆状态</string>
+    <string name="query">查询</string>
+    <string name="stvlawcode">违法代码</string>
+    <string name="detainvehicle">扣留机动车</string>
+    <string name="detainbicycle">扣留非机动车</string>
+    <string name="detaindrivinglicence">扣留驾驶证</string>
+    <string name="dragvehicle">拖移机动车</string>
+    <string name="stvalcohollevel">酒精含量</string>
+    <string name="stvlimit">限制值</string>
+    <string name="sprint">打印</string>
+    <string name="selectdevice">选择连接的设备</string>
+    <string name="scanning">扫描设备</string>
+    <string name="title_new_devices">新的驱动</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="title_paired_devices">匹配的设备</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="button_scan">扫描</string>
+    <string name="none_paired">没有匹配相</string>
+    <string name="connect">连接蓝牙</string>
+    <string name="disconnect">断开</string>
+    <string name="not_connected">请先连接蓝牙打印机（菜单->连接）</string>
+    <string name="bt_not_enabled_leaving">蓝牙没有启动，退出程序</string>
+    <string name="title_connecting">正在连接...</string>
+    <string name="title_connected_to">蓝牙已连接: </string>
+    <string name="title_not_connected">蓝牙没有连接</string>
+    <string name="spunishlog">简易处罚记录</string>
+    <string name="fpunishlog">强制措施记录</string>
+    
+</resources>

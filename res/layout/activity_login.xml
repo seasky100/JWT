@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView android:id="@+id/ScrollView02" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:background="@drawable/login_bg"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="400dp"
+	    
+	    >
+
+    	<EditText
+	    android:id="@+id/login_user_edit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="300dp"
+	    android:background="@drawable/etfocuson_selector"
+	    android:ems="10"
+	    android:hint="@string/login_user_hint"
+	    android:textColor="#000000"
+	    android:textSize="20sp"
+	    android:gravity="center"
+	    android:textStyle="bold">
+	    </EditText>
+	<EditText
+	    android:id="@+id/login_passwd_edit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:layout_below="@+id/login_user_edit"
+	    android:layout_marginTop="30dp"
+	    android:layout_alignLeft="@+id/login_user_edit"
+	    android:layout_alignRight="@+id/login_user_edit"
+	    android:background="@drawable/etfocuson_selector"
+	    android:ems="10"
+	    android:gravity="center"
+	    android:hint="@string/login_passwd_hint"
+	    android:inputType="textPassword"
+	    android:textColor="#000000"
+	    android:textSize="20sp" 
+	    android:textStyle="bold">
+	</EditText>
+	<Button
+	    android:id="@+id/btnlogin"
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:layout_alignLeft="@+id/login_passwd_edit"
+	    android:layout_below="@+id/login_passwd_edit"
+	    android:layout_marginTop="50dp"
+	    android:background="@drawable/btnclick_selector"
+	    android:text="@string/btnlogin"
+	    android:textColor="#ffffff" 
+	    android:onClick="OnClickLogin"/>
+	<Button
+	    android:id="@+id/btnloginback"
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:layout_alignRight="@+id/login_passwd_edit"
+	    android:layout_below="@+id/login_passwd_edit"
+	    android:layout_marginTop="50dp"
+	    android:background="@drawable/btnclick_selector"
+	    android:text="@string/btnloginback"
+	    android:textColor="#ffffff" 
+	    android:onClick="OnClickLoginback"
+	    />
+
+
+
+	</RelativeLayout> 
+	
+</ScrollView>
